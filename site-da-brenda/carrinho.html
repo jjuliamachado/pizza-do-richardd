@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!---Topo--->
+<header id="topo">
+    <div id="inicial-topo">
+
+            <h1>Pizza Store </h1>
+
+            <img src="imagem/logo (1).png" alt="Logo Pizza Store">
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="promo.html">Promoções</a>
+            <a href="carrinho.html">Carrinho</a>
+            <a href="login.html">Entrar</a>
+
+        </nav>
+    
+    </div>
+
+</header>
+
+<div class="container">
+
+    <div class="cart-list">
+      <input class="remover-toggle" id="remover-promocao" type="checkbox">
+      <div class="cart-item" id="promocao">
+        <div class="produto">
+
+          <img src="imagem/PRATO_1.png" alt="promoçao SENAC">
+
+          <div class="produto-info">
+
+            <h3>Promoção SENAC</h3>
+            <p>15.Moda da Casa (Pizza Média 8 Pedaço)<br>Bacon, Calabresa, Cebola, Frango, Milho Verde, Molho, Mussarela, Orégano, Presunto, Tomate</p>
+            <p>20.Real Especial (Pizza Média 8 Pedaço)<br>Bacon, Calabresa, Cebola, Frango, Lombo Canadense, Milho Verde, Molho, Mussarela, Orégano, Palmito, Presunto, Requeijão Cremoso skala, Tomate</p>
+            <p>Refrigerante Coca-Cola 2L</p>
+            <p class="card-preco">R$ 99,90</p>
+
+          </div>
+
+        </div>
+
+        <label class="btn-remover" for="remover-promocao">Excluir</label>
+
+      </div>
+
+      <input class="remover-toggle" id="remover-margherita" type="checkbox">
+      <div class="cart-item" id="margherita">
+        <div class="produto">
+
+          <img src="imagem/prato_2.avif" alt="pizza Margherita">
+
+          <div class="produto-info">
+
+            <h3>Pizza de Margherita ( 8 Pedaços )</h3>
+            <p>A receita de Pizza Estilo Margherita é a escolha ideal para quem aprecia um clássico da culinária italiana. <br>
+            Com uma massa macia por dentro e levemente crocante por fora, essa pizza se destaca pelo sabor autêntico e ingredientes simples. <br>
+            O molho de tomate caseiro realça a base, enquanto fatias generosas de muçarela derretem perfeitamente, criando uma textura cremosa </p>
+            <p class="card-preco">R$ 80,90</p>
+            
+
+          </div>
+
+        </div>
+
+        <label class="btn-remover" for="remover-margherita">Excluir</label>
+
+      </div>
+
+      <input class="remover-toggle" id="remover-mussarela" type="checkbox">
+      <div class="cart-item" id="mussarela">
+        <div class="produto">
+
+          <img src="imagem/prato_3.avif" alt="Pizza de Mussarela">
+
+          <div class="produto-info">
+
+            <h3>Pizza de Mussarela ( 8 Pedaços )</h3>
+             <p> pizza de mussarela em casa com massa dourada e crocante, molho de tomate fresco e queijo mussarela derretido.</p>
+            <p class="card-preco">R$ 90,90</p>
+            
+
+          </div>
+
+        </div>
+
+        <label class="btn-remover" for="remover-mussarela">Excluir</label>
+
+      </div>
+
+      <input class="remover-toggle" id="remover-portuguesa" type="checkbox">
+      <div class="cart-item" id="portuguesa">
+        <div class="produto">
+          <img src="imagem/prato_4.avif" alt="Pizza de Portuguesa">
+          <div class="produto-info">
+            <h3>Pizza de Portuguesa (8 Pedaços)</h3>
+            <p>Mussarela, presunto, cebola, ovo, azeitonas e orégano.</p>
+            <p class="card-preco">R$ 70,90</p>
+          </div>
+        </div>
+        <label class="btn-remover" for="remover-portuguesa">Excluir</label>
+      </div>
+
+      <input class="remover-toggle" id="remover-calabresa" type="checkbox">
+      <div class="cart-item" id="calabresa">
+        <div class="produto">
+          <img src="imagem/prato_5.jpg" alt="Pizza de Calabresa">
+          <div class="produto-info">
+            <h3>Pizza de Calabresa (8 Pedaços)</h3>
+            <p>Calabresa fatiada, cebola roxa, mussarela e orégano.</p>
+            <p class="card-preco">R$ 75,90</p>
+          </div>
+        </div>
+        <label class="btn-remover" for="remover-calabresa">Excluir</label>
+      </div>
+
+      <input class="remover-toggle" id="remover-frango" type="checkbox">
+      <div class="cart-item" id="frango">
+        <div class="produto">
+          <img src="imagem/prato_6.jpg" alt="Pizza de Frango com Catupiry">
+          <div class="produto-info">
+            <h3>Frango com Catupiry (8 Pedaços)</h3>
+            <p>Frango desfiado, catupiry cremoso e mussarela.</p>
+            <p class="card-preco">R$ 82,90</p>
+          </div>
+        </div>
+        <label class="btn-remover" for="remover-frango">Excluir</label>
+      </div>
+
+      <input class="remover-toggle" id="remover-quatro-queijos" type="checkbox">
+      <div class="cart-item" id="quatro-queijos">
+        <div class="produto">
+          <img src="imagem/prato_7.jpg" alt="Pizza Quatro Queijos">
+          <div class="produto-info">
+            <h3>Quatro Queijos (8 Pedaços)</h3>
+            <p>Mussarela, provolone, parmesão e gorgonzola.</p>
+            <p class="card-preco">R$ 85,90</p>
+          </div>
+        </div>
+        <label class="btn-remover" for="remover-quatro-queijos">Excluir</label>
+      </div>
+
+      <input class="remover-toggle" id="remover-vegetariana" type="checkbox">
+      <div class="cart-item" id="vegetariana">
+        <div class="produto">
+          <img src="imagem/prato_8.webp" alt="Pizza Vegetariana">
+          <div class="produto-info">
+            <h3>Pizza Vegetariana (8 Pedaços)</h3>
+            <p>Tomate, pimentão, cebola, milho, azeitona e mussarela.</p>
+            <p class="card-preco">R$ 73,90</p>
+          </div>
+        </div>
+        <label class="btn-remover" for="remover-vegetariana">Excluir</label>
+      </div>
+
+      <input class="remover-toggle" id="remover-coca-cola" type="checkbox">
+      <div class="cart-item" id="coca-cola">
+        <div class="produto">
+          <img src="imagem/prato_9.webp" alt="Coca-Cola 2 litros">
+          <div class="produto-info">
+            <h3>Refrigerante Coca-Cola 2L</h3>
+            <p>Gelada para acompanhar a pizza.</p>
+            <p class="card-preco">R$ 12,90</p>
+          </div>
+        </div>
+        <label class="btn-remover" for="remover-coca-cola">Excluir</label>
+      </div>
+
+      <a href="menu.html" class="continuar">← Continuar comprando</a>
+    </div>
+
+    <!-- Resumo do pedido -->
+    <aside class="resumo-card">
+
+      <h2>Resumo do pedido</h2>
+
+      <div class="resumo-linha">
+
+        <span>Subtotal</span>
+        <span id="subtotalValor">
+          <span class="preco-padrao">Selecione um produto</span>
+          <span class="preco-opcao" id="preco-promocao">R$ 99,90</span>
+          <span class="preco-opcao" id="preco-margherita">R$ 80,90</span>
+          <span class="preco-opcao" id="preco-mussarela">R$ 90,90</span>
+          <span class="preco-opcao" id="preco-portuguesa">R$ 70,90</span>
+          <span class="preco-opcao" id="preco-calabresa">R$ 75,90</span>
+          <span class="preco-opcao" id="preco-frango">R$ 82,90</span>
+          <span class="preco-opcao" id="preco-quatro-queijos">R$ 85,90</span>
+          <span class="preco-opcao" id="preco-vegetariana">R$ 73,90</span>
+          <span class="preco-opcao" id="preco-coca-cola">R$ 12,90</span>
+        </span>
+
+      </div>
+
+      <div class="resumo-linha">
+
+        <span>Frete</span>
+        <span>R$ 0,00</span>
+
+      </div>
+
+      <p class="frete-obs">Frete calculado na finalização</p>
+
+      <hr class="resumo-divisor">
+
+      <div class="resumo-total">
+
+        <span>Total</span>
+        <span id="totalValor">
+          <span class="preco-padrao">Selecione um produto</span>
+          <span class="preco-opcao" id="total-promocao">R$ 99,90</span>
+          <span class="preco-opcao" id="total-margherita">R$ 80,90</span>
+          <span class="preco-opcao" id="total-mussarela">R$ 90,90</span>
+          <span class="preco-opcao" id="total-portuguesa">R$ 70,90</span>
+          <span class="preco-opcao" id="total-calabresa">R$ 75,90</span>
+          <span class="preco-opcao" id="total-frango">R$ 82,90</span>
+          <span class="preco-opcao" id="total-quatro-queijos">R$ 85,90</span>
+          <span class="preco-opcao" id="total-vegetariana">R$ 73,90</span>
+          <span class="preco-opcao" id="total-coca-cola">R$ 12,90</span>
+        </span>
+
+      </div>
+
+      <a class="btn-finalizar" href="pedido.html">Finalizar pedido</a>
+     
+
+      <div class="info-item">
+
+        <span class="icon">🛡️</span>
+
+        <div>
+          <strong>Compra segura</strong>
+          <span>Seus dados protegidos</span>
+
+        </div>
+
+      </div>
+
+      <div class="info-item">
+        <span class="icon">🚚</span>
+
+        <div>
+
+          <strong>Entrega para Uberlândia MG</strong>
+          <span>Com rastreamento</span>
+
+        </div>
+
+      </div>
+
+      <div class="info-item">
+
+        <span class="icon">🙂</span>
+
+        <div>
+
+          <strong>Satisfação garantida</strong>
+          <span>7 dias para devolução</span>
+
+        </div>
+
+      </div>
+    </aside>
+
+  </div>
+
+</body>
+</html>

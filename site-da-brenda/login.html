@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!----------------------------Topo----------------------------------->
+<header id="topo">
+    <div id="inicial-topo">
+
+            <h1>Pizza Store </h1>
+
+            <img src="imagem/logo (1).png" alt="Logo Pizza Store">
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="promo.html">Promoções</a>
+            <a href="carrinho.html">Carrinho</a>
+            <a href="login.html" class="ativo">Entrar</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<div class="auth-wrapper">
+    <div class="auth-card">
+
+        <h2>Entrar</h2>
+        <p class="auth-sub">Acesse sua conta para ver seus pedidos e finalizar a compra mais rápido.</p>
+
+        <form action="index.html" method="get">
+
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+            </div>
+
+            <div class="campo">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Sua senha" required>
+            </div>
+
+            <p class="auth-esqueci"><a href="#">Esqueci minha senha</a></p>
+
+            <button type="submit" class="btn-primario">Entrar</button>
+
+        </form>
+
+        <p class="auth-rodape">Ainda não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+
+    </div>
+</div>
+
+</body>
+</html>

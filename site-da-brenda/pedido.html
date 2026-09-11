@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!----------------------------Topo----------------------------------->
+<header id="topo">
+    <div id="inicial-topo">
+
+            <h1>Pizza Store </h1>
+
+            <img src="imagem/logo (1).png" alt="Logo Pizza Store">
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="promo.html">Promoções</a>
+            <a href="carrinho.html">Carrinho</a>
+            <a href="login.html">Entrar</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<div class="pedido-container" id="telaCheckout">
+
+    <h1 class="pedido-titulo">Finalizar pedido</h1>
+    <p class="pedido-sub">Confira seus dados de entrega e forma de pagamento antes de confirmar.</p>
+
+    <div class="etapas">
+        <span class="etapa">1. Carrinho</span>
+        <span class="etapa ativa">2. Entrega e pagamento</span>
+        <span class="etapa">3. Confirmação</span>
+    </div>
+
+    <form action="pedido-confirmado.html" method="get">
+        <div class="pedido-grade">
+
+            <div>
+                <div class="pedido-secao">
+                    <h3>Endereço de entrega</h3>
+
+                    <div class="campo">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" placeholder="Seu nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereco" placeholder="Rua, número, bairro" required>
+                    </div>
+
+                    <div class="linha-dupla">
+                        <div class="campo">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" id="cidade" value="Uberlândia" required>
+                        </div>
+                        <div class="campo">
+                            <label for="cep">CEP</label>
+                            <input type="text" id="cep" placeholder="38400-000" required>
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label for="referencia">Ponto de referência (opcional)</label>
+                        <input type="text" id="referencia" placeholder="Ex: perto do mercado">
+                    </div>
+                </div>
+
+                <div class="pedido-secao">
+                    <h3>Forma de pagamento</h3>
+
+                    <div class="pagamento-opcoes">
+                        <label class="pagamento-opcao">
+                            <input type="radio" name="pagamento" value="pix" checked>
+                            Pix
+                        </label>
+                        <label class="pagamento-opcao">
+                            <input type="radio" name="pagamento" value="cartao">
+                            Cartão de crédito na entrega
+                        </label>
+                        <label class="pagamento-opcao">
+                            <input type="radio" name="pagamento" value="dinheiro">
+                            Dinheiro na entrega
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resumo-card">
+                <h2>Resumo do pedido</h2>
+
+                <div class="resumo-linha">
+                    <span>Subtotal</span>
+                    <span>R$ 271,70</span>
+                </div>
+
+                <div class="resumo-linha">
+                    <span>Frete</span>
+                    <span>R$ 0,00</span>
+                </div>
+
+                <hr class="resumo-divisor">
+
+                <div class="resumo-total">
+                    <span>Total</span>
+                    <span>R$ 271,70</span>
+                </div>
+
+                <button type="submit" class="btn-finalizar">Confirmar pedido</button>
+
+                <div class="info-item">
+                    <span class="icon">🛡️</span>
+                    <div>
+                        <strong>Compra segura</strong>
+                        <span>Seus dados protegidos</span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span class="icon">🚚</span>
+                    <div>
+                        <strong>Entrega para Uberlândia MG</strong>
+                        <span>Com rastreamento</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+</div>
+
+</body>
+</html>
