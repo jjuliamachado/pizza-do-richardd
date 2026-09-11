@@ -1,0 +1,20 @@
+Adicionei uma nova página de favoritos e carrinho ao site Hyrule Pizzaria, mantendo o mesmo CSS, layout, cores e identidade visual do cardápio existente.
+
+Foram adicionados:
+
+Nova página favoritos.html.
+Links para cardápio, favoritos e carrinho.
+Coração de favoritos em todos os produtos.
+Corações que mudam de ♡ para ♥ ao serem selecionados.
+Botão de carrinho em todos os produtos.
+Botões que mudam de “Adicionar ao carrinho” para “Adicionado ao carrinho”.
+Seção própria para favoritos.
+Seção própria para carrinho.
+Área com total do carrinho.
+Botão para voltar ao cardápio.
+Controles individuais para pizzas, combos e sobremesas.
+Layout responsivo para celular.
+Estilização dos botões, contadores, cartões e seções.
+Navegação entre hidex.html e favoritos.html.
+Manutenção do link do trailer que já existia no site.
+Uso exclusivo de HTML e CSS, sem JavaScript.
