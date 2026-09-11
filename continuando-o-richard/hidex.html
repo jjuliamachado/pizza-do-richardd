@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyrule Pizzaria</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  
+  <header>
+    <h2>Bem-vindo à Hyrule Pizzaria</h2>
+    <img src="logo_pizzaria_zelda_v2.png" class="logo" alt="Logotipo Hyrule Pizza">
+    
+    <nav>
+        <a href="#cardapio">cardápio</a>
+        <a href="favoritos.html">favoritos <span class="nav-count" data-favorites-count>0</span></a>
+        <a href="favoritos.html#carrinho">carrinho <span class="nav-count" data-cart-count>0</span></a>
+        <a href="https://www.youtube.com/watch?v=GuMNc3ZHauY">trailer</a>
+    </nav>  
+
+    <p>veja o cardápio que as lendas gostam</p>
+  </header> 
+
+    <main id="cardapio">
+    <div class="pizza" data-product="heroi-do-tempo" data-name="Herói do Tempo" data-price="42">
+        <img src="heroi_do_tempo.png" alt="Pizza Herói do Tempo">
+        <h4>R$ 42</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-heroi"><label class="favorite-button" for="favorite-heroi" aria-label="Adicionar Herói do Tempo aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="pizza" data-product="floresta-kokiri" data-name="Floresta Kokiri" data-price="48">
+        <img src="floresta_kokiri.png" alt="Pizza Floresta Kokiri">
+        <h4>R$ 48</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-floresta"><label class="favorite-button" for="favorite-floresta" aria-label="Adicionar Floresta Kokiri aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="pizza" data-product="deserto-gerudo" data-name="Deserto Gerudo" data-price="45">
+        <img src="deserto_gerudo.png" alt="Pizza Deserto Gerudo">
+        <h4>R$ 45</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-deserto"><label class="favorite-button" for="favorite-deserto" aria-label="Adicionar Deserto Gerudo aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="pizza" data-product="montanha-da-morte" data-name="Montanha da Morte" data-price="47">
+        <img src="montanha_da_morte.png" alt="Pizza Montanha da Morte">
+        <h4>R$ 47</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-montanha"><label class="favorite-button" for="favorite-montanha" aria-label="Adicionar Montanha da Morte aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="pizza" data-product="lago-hylia" data-name="Lago Hylia" data-price="58">
+        <img src="lago_hylia.png" alt="Pizza Lago Hylia">
+        <h4>R$ 58</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-lago"><label class="favorite-button" for="favorite-lago" aria-label="Adicionar Lago Hylia aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="pizza" data-product="templo-da-agua" data-name="Templo da Água" data-price="55">
+        <img src="templo_da_agua.png" alt="Pizza Templo da Água">
+        <h4>R$ 55</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-templo"><label class="favorite-button" for="favorite-templo" aria-label="Adicionar Templo da Água aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="pizza" data-product="vila-dos-goron" data-name="Vila dos Goron" data-price="52">
+        <img src="vila_dos_goron.png" alt="Pizza Vila dos Goron">
+        <h4>R$ 52</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-vila"><label class="favorite-button" for="favorite-vila" aria-label="Adicionar Vila dos Goron aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="pizza" data-product="bosque-perdido" data-name="Bosque Perdido" data-price="46">
+        <img src="bosque_perdido.png" alt="Pizza Bosque Perdido">
+        <h4>R$ 46</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-bosque"><label class="favorite-button" for="favorite-bosque" aria-label="Adicionar Bosque Perdido aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <h3>combos</h3>
+    <hr>
+
+    <div class="combos" data-product="combo-triade" data-name="Combo Tríade" data-price="39">
+        <img src="combo_triade.png" alt="Combo Tríade">
+        <h4>R$ 39</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-triade"><label class="favorite-button" for="favorite-triade" aria-label="Adicionar Combo Tríade aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="combos" data-product="kit-explorador" data-name="Kit Explorador" data-price="58">
+        <img src="kit_explorador.png" alt="Kit Explorador">
+        <h4>R$ 58</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-kit"><label class="favorite-button" for="favorite-kit" aria-label="Adicionar Kit Explorador aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="combos" data-product="festim-de-hyrule" data-name="Festim de Hyrule" data-price="89">
+        <img src="festim_de_hyrule.png" alt="Combo Festim de Hyrule">
+        <h4>R$ 89</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-festim"><label class="favorite-button" for="favorite-festim" aria-label="Adicionar Festim de Hyrule aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="combos" data-product="combo-ocarina" data-name="Combo Ocarina" data-price="95">
+        <img src="combo_ocarina.png" alt="Combo Ocarina">
+        <h4>R$ 95</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-ocarina"><label class="favorite-button" for="favorite-ocarina" aria-label="Adicionar Combo Ocarina aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <h3>Sobremesa</h3>
+    <hr> 
+
+    <div class="sobremesa" data-product="coracao-da-deusa" data-name="Coração da Deusa" data-price="32">
+        <img src="coracao_da_deusa.png" alt="Sobremesa Coração da Deusa">
+        <h4>R$ 32</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-coracao"><label class="favorite-button" for="favorite-coracao" aria-label="Adicionar Coração da Deusa aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+
+    <div class="sobremesa" data-product="po-de-fada" data-name="Pó de Fada" data-price="28">
+        <img src="po_de_fada.png" alt="Sobremesa Pó de Fada">
+        <h4>R$ 28</h4>
+        <div class="card-actions"><input class="favorite-toggle" type="checkbox" id="favorite-po"><label class="favorite-button" for="favorite-po" aria-label="Adicionar Pó de Fada aos favoritos">♡</label><label class="cart-button"><input class="cart-toggle" type="checkbox"><span class="cart-add">adicionar ao carrinho</span><span class="cart-added">adicionado ao carrinho</span></label></div>
+    </div>
+  </main>
+
+</body>
+</html>

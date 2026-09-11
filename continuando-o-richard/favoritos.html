@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos e carrinho | Hyrule Pizzaria</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header class="compact-header">
+        <h2>Seu tesouro em Hyrule</h2>
+        <img src="logo_pizzaria_zelda_v2.png" class="logo" alt="Logotipo Hyrule Pizza">
+        <nav>
+            <a href="hidex.html">cardápio</a>
+            <a href="#favoritos">favoritos <span class="nav-count" data-favorites-count>0</span></a>
+            <a href="#carrinho">carrinho <span class="nav-count" data-cart-count>0</span></a>
+        </nav>
+        <p>guarde suas escolhas e prepare sua próxima aventura</p>
+    </header>
+
+    <main class="saved-page">
+        <section id="favoritos" class="saved-section">
+            <div class="section-heading">
+                <h1>Favoritos</h1>
+                <span class="section-count" data-favorites-count>0 itens</span>
+            </div>
+            <div class="saved-grid">
+                <p class="empty-message">Seu grimório ainda está vazio. Volte ao cardápio para escolher uma lenda.</p>
+            </div>
+        </section>
+
+        <section id="carrinho" class="saved-section cart-section">
+            <div class="section-heading">
+                <h1>Carrinho</h1>
+                <span class="section-count" data-cart-count>0 itens</span>
+            </div>
+            <div class="cart-list">
+                <p class="empty-message">Seu carrinho está esperando por uma escolha deliciosa.</p>
+            </div>
+            <div class="cart-summary">
+                <strong>Total da expedição</strong>
+                <strong>R$ 0</strong>
+            </div>
+            <a class="checkout-button" href="hidex.html">voltar ao cardápio</a>
+        </section>
+    </main>
+</body>
+</html>
